@@ -1,0 +1,33 @@
+﻿.mySlides {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 300px;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    border: none;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+    .prev:hover, .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+.w3 {
+    background-color: #ededed;
+}

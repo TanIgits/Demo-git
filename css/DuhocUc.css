@@ -1,0 +1,152 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('~/Hinh/AnhduhocUc.png'); 
+    background-size: cover;
+    background-position: center;
+}
+
+    header h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    header ul {
+        list-style-type: none;
+        margin: 10px 0;
+    }
+
+        header ul li {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+.cta-button {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+    .cta-button:hover {
+        background-color: #e68900;
+    }
+
+.section {
+    padding: 30px 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    .section h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .section p {
+        text-align: center;
+        font-size: 18px;
+        color: #555;
+    }
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+    .flex-container div {
+        flex: 1;
+        min-width: 280px;
+        max-width: 30%;
+        padding: 20px;
+        background-color: #e3e3e3;
+        border-radius: 8px;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .flex-container div:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+    .flex-container h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .flex-container p {
+        font-size: 16px;
+        color: #666;
+    }
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    footer p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .flex-container div {
+            max-width: 100%;
+        }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    .cta-button {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+}

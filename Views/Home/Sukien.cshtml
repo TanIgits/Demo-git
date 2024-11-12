@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="~/css/SuLayoutkien.css">
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Sự Kiện - New Ocean</title>
+    <style>
+        .event-card {
+            margin-bottom: 50px;
+        }
+
+        .event-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .event-content h5 {
+            font-size: 1.25rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 class="mb-4">Sự kiện du học</h2>
+        <div class="row">
+            <div class="col-md-4 event-card">
+                <div class="card">
+                    <div class="event-image">
+                        <img src="~/Hinh/hinh2.jpg" alt="Hội thảo Singapore">
+                    </div>
+                    <div class="card-body event-content">
+                        <h5 class="card-title">Hội thảo trực tiếp Trường Amity Global Institute Singapore</h5>
+                        <p class="card-text">Ngày 26/10/2024 - Tập đoàn giáo dục Amity tổ chức hội thảo tại Singapore.</p>
+                        <a href="#" class="btn btn-primary">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 event-card">
+                <div class="card">
+                    <div class="event-image">
+                        <img src="~/Hinh/hinh1.jpg" alt="Phỏng vấn học bổng">
+                    </div>
+                    <div class="card-body event-content">
+                        <h5 class="card-title">Phỏng vấn trực tiếp học bổng du học Mỹ</h5>
+                        <p class="card-text">Ngày 08/11/2024 - Phỏng vấn học bổng du học Mỹ với mức hỗ trợ lên tới 21.000 USD.</p>
+                        <a href="#" class="btn btn-primary">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 event-card">
+                <div class="card">
+                    <div class="event-image">
+                        <img src="~/Hinh/hinh3.jpg" alt="Webinar du học Singapore">
+                    </div>
+                    <div class="card-body event-content">
+                        <h5 class="card-title">Webinar tìm nhà tại Singapore</h5>
+                        <p class="card-text">Ngày 30/09/2024 - Webinar về trải nghiệm thực tế của sinh viên tại Singapore.</p>
+                        <a href="#" class="btn btn-primary">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

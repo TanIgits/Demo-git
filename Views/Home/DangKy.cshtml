@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <link rel="stylesheet" href="~/css/DangNhap.css">
+}
+<div class="box-register">
+    <div class="register-header">
+        <header>Đăng ký tư vấn</header>
+    </div>
+    <div class="input-box">
+        <input type="text" class="input-field" placeholder="Họ và tên" autocomplete="off" required />
+    </div>
+    <div class="input-box">
+        <input type="text" class="input-field" placeholder="Địa chỉ email" autocomplete="off" required />
+    </div>
+    <div class="input-box">
+        <input type="text" class="input-field" placeholder="Nhập số điện thoại" autocomplete="off" required />
+    </div>
+    <div class="input-box">
+        <input type="text" class="input-field" placeholder="Tỉnh thành phố" autocomplete="off" required />
+    </div>
+
+    <div class="input-submit">
+        <button class="submit-btn" id="submit"></button>
+        <label for="submit">Đăng ký</label>
+    </div>
+    <div class="login-link">
+        <p>Nếu có tài khoản ? <a href="~/Home/DangNhap">Đăng nhập</a></p>
+    </div>
+</div>
+

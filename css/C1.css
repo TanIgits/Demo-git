@@ -1,0 +1,81 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+header {
+    background-color: white;
+    padding: 10px 0;
+}
+
+.top-nav, .bottom-nav {
+    display: flex;
+    justify-content: right;
+    background-color: white;
+}
+
+    .top-nav ul, .bottom-nav ul {
+        display: flex;
+        list-style: none;
+    }
+
+    .top-nav li, .bottom-nav li {
+        margin: 0 10px;
+    }
+
+    .top-nav a, .bottom-nav a {
+        text-decoration: none;
+        color: #000;
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+
+        .top-nav a:hover, .bottom-nav a:hover {
+            color: #0073aa;
+        }
+
+.top-nav {
+    border-bottom: 0px solid;
+}
+
+.bottom-nav a::after {
+    content: ' ▼';
+    font-size: 15px;
+}
+
+.Logo a {
+    text-decoration: none;
+    color: red;
+    padding: 5px 10px;
+    font-size: 45px;
+    margin: 0px 50px;
+    position: absolute;
+    font-weight: 900;
+}
+
+.Welcom {
+    font-size: 50px;
+    color: red;
+    font-weight: 900;
+    margin-left: 50px;
+}
+
+.hinh {
+    width: 300px;
+    height: 150px;
+}
+
+.banner {
+    font-size: 20px;
+}
+
+.mota {
+    color: gray;
+    font-weight: normal;
+    font-size: 18px;
+}
